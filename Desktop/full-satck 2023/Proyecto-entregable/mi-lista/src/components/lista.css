@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(224, 220, 220);
+}
+h1{
+width: 100%;
+}
+.list-container{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lista{    
+    background-color: whitesmoke;
+    width: 30%;
+    text-align: start ;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 30px;
+    height: 150px;
+}

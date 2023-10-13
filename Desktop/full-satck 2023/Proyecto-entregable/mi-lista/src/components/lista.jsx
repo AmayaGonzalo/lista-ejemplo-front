@@ -1,4 +1,5 @@
 import React, { useState, useEffect} from "react";
+import './lista.css'
 
 const Lista = () =>{
     //const personas = ["Leandro","Gonzalo","Javier","Gastón","Emiliana"];
@@ -15,16 +16,18 @@ const Lista = () =>{
     }, [] );
 
     return(
-        <>
+        <div className="list-container">
 
         <h1>Personas</h1>
-        <ul>
-            {personas.map((persona,index) => (
-                <li key={index}>{persona.nombre} - {persona.apellido} - {persona.nacionalidad}</li>
-            ))}
-        </ul>       
+        <div className="lista">
+            <ul>
+                {personas.map((persona,index) => (
+                    <li key={index}>{persona.nombre} - {persona.apellido} - {persona.nacionalidad}</li>
+                ))}
+            </ul>   
+        </div>    
         
-        </>
+        </div>
     )
 }
 
