@@ -1,0 +1,51 @@
+.AgregarPersona {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+    max-width: 500px;
+  }
+  h2{
+    width: 100%;
+  }
+  
+  .input-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-top: 3px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .personas-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .personas-list li {
+    margin: 5px 0;
+  }
+  
+  .list-container{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}

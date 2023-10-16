@@ -1,10 +1,10 @@
 import './App.css';
-import Lista from './components/lista';
+import Persona from './components/persona/persona';
 
 function App() {
   return (
-    <div className="App">
-     <Lista></Lista>
+    <div className="App list-container">
+     <Persona></Persona>
     </div>
   );
 }
